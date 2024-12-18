@@ -1,17 +1,17 @@
 body{
-
-    background-image: url("images.jpeg");
+background-color: #A294F9;
+  
     background-size: cover;
 }
-/* General reset for consistent styling */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif; /* Assuming a clean modern font */
+    font-family: 'Poppins', sans-serif;
 }
 
-/* Body styling with background image and dark overlay */
+
 body {
    
  
@@ -22,19 +22,19 @@ body {
    
 }
 
-/* Dark overlay for the form */
+
 .container {
     z-index: 1.5;
-    background-color: rgba(10, 10, 10, 0.9); /* Dark background with opacity */
+    background-color: #E5D9F2; 
     border-radius: 20px;
     width: 500px;
     padding: 40px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Soft shadow */
-    backdrop-filter: blur(10px); /* Blurs the background behind the container */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px); 
     height: 400px;
 }
 
-/* Header for the form (logo and navigation) */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -57,7 +57,7 @@ nav a:hover {
     color: #fff;
 }
 
-/* Form content */
+
 .form-content h2 {
     font-size: 32px;
     font-weight: bold;
@@ -72,7 +72,7 @@ nav a:hover {
 }
 
 .form-content a {
-    color: #1E90FF;
+    color: #CDC1FF;
     text-decoration: none;
 }
 
@@ -80,7 +80,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Input fields styling */
+
 .input-group {
     display: flex;
     justify-content: space-between;
@@ -92,7 +92,7 @@ input[type="text"], input[type="email"], input[type="password"] {
     width: 100%;
     padding: 15px;
     margin-bottom: 15px;
-    background-color: #222; /* Dark background */
+    background-color: #222; 
     border: none;
     border-radius: 10px;
     color: #fff;
@@ -100,11 +100,8 @@ input[type="text"], input[type="email"], input[type="password"] {
     outline: none;
 }
 
-input::placeholder {
-    color: #888; /* Light placeholder text */
-}
 
-/* Styling for buttons */
+
 .button-group {
     display: flex;
     justify-content: space-between;
@@ -112,7 +109,7 @@ input::placeholder {
 }
 
 button {
-    width: 48%; /* Each button takes half width */
+    width: 48%; 
     padding: 15px;
     border-radius: 10px;
     border: none;
@@ -121,23 +118,23 @@ button {
     transition: 0.3s;
 }
 
-/* Buttons' color styles */
+
 button[type="button"] {
-    background-color: #555; /* Dark button for change method */
+    background-color: #555; 
     color: #fff;
 }
 
 button.create-account-btn {
-    background-color: #1E90FF; /* Blue button for create account */
+    background-color: #69247C; 
     color: #fff;
     margin-left: 100px;
 }
 
 button:hover {
-    opacity: 0.9; /* Slight hover effect */
+    opacity: 0.9; 
 }
 
-/* Adding responsive behavior for smaller screens */
+
 @media (max-width: 768px) {
     .container {
         width: 90%;
@@ -159,6 +156,6 @@ button:hover {
     z-index: 0.5;
 }
 h1{
-    color: rgb(216, 206, 8);
+    color: #DA498D;
   
 }
